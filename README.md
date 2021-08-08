@@ -1,5 +1,6 @@
 # DDos-tools
 We collected several DDos Tools for testings.
+## The collection will keep updating, adding new tools & tutorials.
 > In computing, a denial-of-service attack is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.
 
 ## Disclaimer
@@ -56,13 +57,13 @@ This software is distributed under the GNU General Public License version 3 (GPL
  Authors : **Hyperclaw79**, *version 3.0, 2.0*; **Barry Shteiman** , *version 1.0*
 
 #### Usage
-1.  Run `pip install -r requirements.txt` before starting this script.
-2.  Launch the `hulk-server.py` with the target website as arg.
+* Run `pip install -r requirements.txt` before starting this script.
+* Launch the `hulk-server.py` with the target website as arg.
     `python hulk-server.py https://testdummysite.com`  
-3.  Launch the `hulk-launcher.py` to spawn multiple processes of hulk - one per CPU Core.
+* Launch the `hulk-launcher.py` to spawn multiple processes of hulk - one per CPU Core.
     `python hulk-launcher.py localhost`
     >  If it's a bot on a remote client, replace localhost with the server's IP.
-4.  Sit back and sip your coffee while the carnage unleashes! >:D
+* Sit back and sip your coffee while the carnage unleashes! >:D
 
 #### License
 HULK v3 is a Python 3 compatible Asynchronous Distributed Denial of Service Script.
@@ -72,3 +73,84 @@ You can use that one if you have Python 2.
 Using a GNU license cause there was no mention about any license used by Barry.
 Feel free to modify and share it, but leave some credits to us both and don't hold us liable.
 
+### 6. pyloris
+> Using HTTPLoris is simple. In its most basic form, HTTPLoris merely needs a copy of Python 2.6.
+#### Usage
+On a Linux machine, one must simply invoke the script in a terminal, stating a site to test:
+```shell
+motoma@rocksalt:/home/motoma$ python pyloris-3.0.py motomastyle.com
+```
+On Mac OS X, one invokes PyLoris the same way. Using the Terminal Application:
+```shell
+hotdog:/Users/Motoma/ motoma$ python pyloris-3.0.py motomastyle.com
+```
+Using HTTPLoris in Windows is a little different. One will need to know the location of the Python installation, and be in the proper directory. Load up a command prompt:
+```shell
+C:\Users\Motoma\Desktop\pyloris-3.0>C:\Python26\python.exe pyloris-3.0.py motomastyle.com
+```
+#### Advanced Options
+>Invoking HTTPLoris by using the commands above start a limited to 500 connections across 50 threads, each sending at 1 byte/second and waiting until the connection is forced shut by the server. While this behavior will bog down an Apache server with the default settings, it is not a very thorough test. The following are some additionall options that will allow one to customize the way HTTPLoris works:
+```
+-a, --attacklimit
+The --attacklimit flag restricts the number of total connections (current + completed) during a single session. Set this to zero to specify no limit.
+
+-c, --connectionlimit
+Adjusting the --connectionlimit flag can drastically change how well HTTPLoris performs. The --connectionlimit flag directly controls the number of concurrent connections held during the session. In a base Apache environment, when this number is above the MaxClients setting, the server is unresponsive.
+
+-t, --threadlimit
+This is the number of attacker threads run during the session.
+
+-b, --connectionspeed
+This is the connection speed for each individual connection in bytes/second. Comparing this with the lenght of the request, and you should have an accurate guess of how long each connection should linger.
+
+-f, --finish
+Specifying the --finish flag will cause HTTPLoris to finish and close connections upon the completion of the request. This will prompt servers to send full responses to the HTTP requests that are made.
+
+-k --keepalive
+Using the --keepalive flag will add the Connection: Keep-Alive header to the HTTP request. On vulnerable servers, this will increase the duration of connections considerably.
+
+-p, --port
+HTTPLoris will connect on port 80 by default. Specifying the --port flag will change this behavior.
+
+-P, --page
+By default, HTTPLoris will make HTTP requests for "/". Setting the --page flag will allow one to control the page that HTTPLoris requests.
+
+-q, --quit
+Terminate the connection without receiving reply from the server. This will reduce the effectivenes as connections will terminate as soon as the full request buffer has been sent.
+
+-r, --requesttype
+Setting the --requesttype flag will change the HTTP method used. Available options are GET, HEAD, POST, PUT, DELETE, OPTIONS, and TRACE. Certain proxies and load balancers will filter out certain types of requests, and hold them until the requests are complete. POST requests are commonly passed through due to their potential for large sizes, therefore this may cause different behavior.
+
+-R, --referer
+Adds a referring URL to the HTTP request.
+
+-s, --Size
+The --size flag allows one to increase the size of the request made. Increasing the size will in turn increase the duration of connections, leading to a longer sustained test. In situations where servers or firewalls are set to terminate unfinished connections, this can extend the length of the test drastically. This can also be used to test a web server's capability to handle multiple large requests and benchmark memory usage. The additional data is filled in the Cookie-Data field.
+
+-u, --useragent
+By default, HTTPLoris advertizes itself in the User-Agent header. The --useragent flag allows one to override this and masquerade as other web browsers. Useful because some sites will render different pages for different web browsers. 
+
+-z, --gzip
+Specifying the --gzip flag will allow instruct PyLoris to send an "Accept-Encoding: gzip" header. When combined with the --quit and --finish flags, this can test for the CEV-2009-1891 DoS vulnerability (http://www.mail-archive.com/dev@httpd.apache.org/msg44323.html). Also leads to larger CPU usage and smaller bandwidth usage.
+
+-w, --timebetweenthreads
+Setting the --timebetweenthreads flag will adjust the amount of time between threads spawning. Adjusting this in conjunction with the --threadlimit will change the CPU load on your local machine.
+
+-W, --timebetweenconnections
+Setting the --timebetweenconnections flag will adjust the amount of time between socket connections. This will directly affect how quickly the target's connection limit is reached.
+
+Proxy Options 
+HTTPLoris is able to connect through SOCKS4, SOCKS5, and HTTP proxies. This allows HTTPLoris to run through SSH tunnels, as well as TOR. Utilizing TOR should essentially eliminate the mitigating effects of ipchains, mod_antiloris, and mod_noloris.
+
+--socksversion
+Setting the --socksversion flag tells HTTPLoris to connect through a SOCKS proxy. Allowed values are SOCKS4, SOCKS5, and HTTP.
+
+--sockshost
+Set the --sockshost flag to the address of the SOCKS proxy when --socksversion is set. If this is not set, HTTPLoris will default to 127.0.0.1.
+
+--socksport
+Set the --socksport flag to the port number of the SOCKS proxy when --socksversion is set. 
+
+--socksuser and --sockspass
+Optionally, one may set a username and password for the SOCKS proxy using these two flags.
+```
