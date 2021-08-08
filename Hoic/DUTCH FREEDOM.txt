@@ -1,0 +1,29 @@
+Brothers
+
+one of our aids has been arrested and detained for merely using the loic
+we must show them that this is a mistake
+
+INSTRUCTIONZ:
+1. open HOIC
+
+2. click the "+" symbol underneath "TARGETS" ont he far right side.
+
+3. type in http://www.om.nl/ , this is the website of the prosecutors
+
+4. You may slide the power bar from low, medium or high.  (CLICK AND DRAG TO ACHIEVE MEDIUM, I know it is difficult sometimes but Windows controls are homo)
+
+5. Click on the box underneath booster, and select "DutchFreedom.hoic"
+
+**This file boosts the output of your HOIC with attacks specifically targeted at the destination website.  I encourage experienced users to modify the strings contained within this file to make each attack unique!
+
+6. Click add
+
+7.  Locate "Threads", click on the left arrow and right arrow to adjust the number of threads.
+a thread makes the attack more powerful, but may lag your system.  you should only use 1 thread per CPU at most for optimal performance, although a much lower setting is recommended, such as 2 or 1. 
+
+8. now that you are ready to attack, click FIRE TEH LAZER.
+
+9.  Your HOIC is now active.... notice that while it is active, it might appear to have crashed if you click upon the application.  if this occurs, you may regain control of the application by clicking on FIRE TEH LAZER!.  if this does nothing, open task manager, then try again.  ultimately, there is nothing wrong with leaving the process open with the additional dialog that informs you that it has crashed as this is incorrect.  the program is working aggressively in the background.  if you wish to terminate it and it has deadlocked, use taskmanager (CTRL+ALT+DEL -> Processes -> Select hoic.exe, and click End Process)
+
+good luck
+may the force be with u
