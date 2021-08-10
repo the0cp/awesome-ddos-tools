@@ -164,3 +164,16 @@ Optionally, one may set a username and password for the SOCKS proxy using these 
 
 >The R.U.D.Y. software includes a user-friendly point-and-click interface, so all an attacker needs to do is point the tool at a vulnerable target. Any web service that accepts form input is vulnerable to a R.U.D.Y. attack, since the tool works by sniffing out form fields and exploiting the form submission process.
 
+### 7. Torshammer
+```
+USAGE:
+
+./torshammer.py -t <target> [-r <threads> -p <port> -T -h]
+-t|--target <Hostname|IP>
+-r|--threads <Number of threads> Defaults to 256
+-p|--port <Web Server Port> Defaults to 80
+-T|--tor Enable anonymising through tor on 127.0.0.1:9050
+-h|--help Shows this help
+
+Eg. ./torshammer.py -t 192.168.1.100 -r 256
+```
