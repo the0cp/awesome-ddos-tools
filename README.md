@@ -177,3 +177,4 @@ USAGE:
 
 Eg. ./torshammer.py -t 192.168.1.100 -r 256
 ```
+### 8. Slowloris
