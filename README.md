@@ -250,3 +250,26 @@ antirez
 
 ### 10. #Refref
 #Refref - An SQLi injection DDOS tool
+
+### 11. Hyenae
+#### Features
+- ARP-Request flooding
+- ARP-Cache poisoning
+- PPPoE session initiation flooding
+- Blind PPPoE session termination
+- ICMP-Echo flooding
+- ICMP-Smurf attack
+- ICMP based TCP-Connection reset
+- TCP-SYN flooding
+- TCP-Land attack
+- Blind TCP-Connection reset
+- UDP flooding
+- DNS-Query flooding
+- DHCP-Discover flooding
+- DHCP starvation attack
+- DHCP-Release forcing
+- Cisco HSRP active router hijacking
+- Pattern based packet address configuration
+- Intelligent address and address protocol detection
+- Smart wildcard-based randomization
+- Daemon for setting up remote attack networks - HyenaeFE QT-Frontend support
