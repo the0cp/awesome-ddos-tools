@@ -277,8 +277,27 @@ antirez
 ### 11. Boom(Python)
 
 ### 12. RCPnet
+> A multi-tool for network pen-testing written in python. It contains effective ping functions, hostname traceroute, and cloudflare detection. This is a modification from the FoxNuke Project, which only intended to be a DOS tool for network pen testing. 
 
 ### 13. MaddStress
+> MaddStress is a simple denial-of-service (DDoS) attack tool that refers to attempts to burden a network or server with requests, making it unavailable to users.
+
+#### Features
+- Strongest & Best DDoS Tools
+- UDP Configuration
+- TCP Configuration
+- SYN Configuration
+- Proxy Configuration
+- URL Grabber
+- Port Scanner
+- CloudFlare Resolver
+- Multi CloudFlare Resolver
+- Proxy Attack & Generator
+- Always Updates & Current News
+- System Information
+- Network Information
+- Simple Design UI
+- User friendly GUI
 
 ### 14. Dequiem
 
