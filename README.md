@@ -300,9 +300,21 @@ antirez
 - User friendly GUI
 
 ### 14. Dequiem
+> Dequiem is a DDoS tool written in python 2.7
+
+#### Features
+- DDoS
+- Find a website's IP
+- Port Scanning
 
 ### 15. NEMESIS
+> NEMESIS is tool like torshammer or pyloic, used to Distributed Denial of Service attacks, writen in C#
 
 ### 16. ChiHULK
+> Written in python 2.7  
+> Edited version of the DDoS / DoS tool called HULK(.py). 
 
 ### 17. PentaDos
+> Written in python 2.7  
+> A tool designed by members of PentagonCrew to help
+you easily take down websites. *Ethical uses only*
