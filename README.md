@@ -15,16 +15,16 @@ All collected tools and scripts come from the Internet and have passed the test,
 THESE SOFTWARES AND SCRIPTS ARE PROVIDED FOR EDUCATIONAL USE ONLY! IF YOU ENGAGE IN ANY ILLEGAL ACTIVITY WE DO NOT TAKE ANY RESPONSIBILITY FOR IT. BY USING THESE SOFTWARES AND SCRIPTS YOU AGREE WITH THESE TERMS.
 
 ## Software & Script Info
-### LOIC (Low Orbit Ion Cannon_Windows)
+### 1. LOIC (Low Orbit Ion Cannon_Windows)
 > LOIC is an open-source network stress testing and denial-of-service attack application, written in C#. LOIC was initially developed by Praetox Technologies, but was later released into the public domain, and now is hosted on several open source platforms.
 
-### 1. davoset
+### 2. davoset
 > DDoS attacks via other sites execution tool. It is console (command line) tool for conducting DDoS attacks on the sites via Abuse of Functionality and XML External Entities vulnerabilities at other sites.
 
-### 2. ddosim
+### 3. ddosim
 > DDOSIM is a tool that can be used in a laboratory environment to simulate a distributed denial of service (DDOS) attack against a target server. ... It simulates several zombie hosts (having random IP addresses) which create full TCP connections to the target server.
 
-### 3. GoldenEye
+### 4. GoldenEye
 > GoldenEye is an python app for security testing.
 > GoldenEye is a HTTP DoS Test Tool. 
 #### Usage
@@ -44,10 +44,10 @@ THESE SOFTWARES AND SCRIPTS ARE PROVIDED FOR EDUCATIONAL USE ONLY! IF YOU ENGAGE
 #### License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
 
-### 4. Hoic (High Orbit Ion Cannon)
+### 5. Hoic (High Orbit Ion Cannon)
 > Hoic is an open-source network stress testing and denial-of-service attack application designed to attack as many as 256 URLs at the same time. It was designed to replace the Low Orbit Ion Cannon which was developed by Praetox Technologies and later released into the public domain.
 
-### 5. HULK (HTTPS Unbearable Load King)
+### 6. HULK (HTTPS Unbearable Load King)
 ![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GNU-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows--10-lightgrey?style=for-the-badge)
@@ -78,7 +78,7 @@ You can use that one if you have Python 2.
 Using a GNU license cause there was no mention about any license used by Barry.
 Feel free to modify and share it, but leave some credits to us both and don't hold us liable.
 
-### 6. pyloris
+### 7. pyloris
 > Using HTTPLoris is simple. In its most basic form, HTTPLoris merely needs a copy of Python 2.6.
 #### Usage
 On a Linux machine, one must simply invoke the script in a terminal, stating a site to test:
@@ -160,12 +160,12 @@ Set the --socksport flag to the port number of the SOCKS proxy when --socksversi
 Optionally, one may set a username and password for the SOCKS proxy using these two flags.
 ```
 
-### 6. Rudy (R U Dead yet)
+### 8. Rudy (R U Dead yet)
 > ‘R U Dead Yet?’ or R.U.D.Y. is a denial-of-service attack tool that aims to keep a web server tied up by submitting form data at an absurdly slow pace. A R.U.D.Y. exploit is categorized as a low-and-slow attack, since it focuses on creating a few drawn-out requests rather than overwhelming a server with a high volume of quick requests. A successful R.U.D.Y. attack will result in the victim’s origin server becoming unavailable to legitimate traffic.  
 
 >The R.U.D.Y. software includes a user-friendly point-and-click interface, so all an attacker needs to do is point the tool at a vulnerable target. Any web service that accepts form input is vulnerable to a R.U.D.Y. attack, since the tool works by sniffing out form fields and exploiting the form submission process.
 
-### 7. Torshammer
+### 9. Torshammer
 ```
 USAGE:
 
@@ -178,9 +178,8 @@ USAGE:
 
 Eg. ./torshammer.py -t 192.168.1.100 -r 256
 ```
-### 8. Slowloris
 
-### 9. hping
+### 10. hping
 ```
 DESCRIPTION
 
@@ -248,10 +247,10 @@ have fun,
 antirez
 ```
 
-### 10. #Refref
+### 11. #Refref
 #Refref - An SQLi injection DDOS tool
 
-### 11. Hyenae
+### 12. Hyenae
 #### Features
 - ARP-Request flooding
 - ARP-Cache poisoning
@@ -274,12 +273,12 @@ antirez
 - Smart wildcard-based randomization
 - Daemon for setting up remote attack networks - HyenaeFE QT-Frontend support
 
-### 11. Boom(Python)
+### 13. Boom(Python)
 
-### 12. RCPnet
+### 14. RCPnet
 > A multi-tool for network pen-testing written in python. It contains effective ping functions, hostname traceroute, and cloudflare detection. This is a modification from the FoxNuke Project, which only intended to be a DOS tool for network pen testing. 
 
-### 13. MaddStress
+### 15. MaddStress
 > MaddStress is a simple denial-of-service (DDoS) attack tool that refers to attempts to burden a network or server with requests, making it unavailable to users.
 
 #### Features
@@ -299,7 +298,7 @@ antirez
 - Simple Design UI
 - User friendly GUI
 
-### 14. Dequiem
+### 16. Dequiem
 > Dequiem is a DDoS tool written in python 2.7
 
 #### Features
@@ -307,27 +306,29 @@ antirez
 - Find a website's IP
 - Port Scanning
 
-### 15. NEMESIS
+### 17. NEMESIS
 > NEMESIS is tool like torshammer or pyloic, used to Distributed Denial of Service attacks, writen in C#
 
-### 16. ChiHULK
+### 18. ChiHULK
 > Written in python 2.7  
 > Edited version of the DDoS / DoS tool called HULK(.py). 
 
-### 17. PentaDos
+### 19. PentaDos
 > Written in python 2.7  
 > A tool designed by members of PentagonCrew to help
 you easily take down websites. *Ethical uses only*
 
-### 18. Moihack DoS Attack Tool Reloaded
+### 20. Moihack DoS Attack Tool Reloaded
 > A simple TCP/UDP Port Flooder written in Python. 
 
-### 19. AnDDoS
+### 21. Slowloris
+
+### 22. AnDDoS
 > Stealth Anonymous Kill-The-Server
 > 
 > The classic DDoS! Overload the server.
 
-### 20. torDDos
+### 23. torDDos
 #### Author: [r3nt0n](https://github.com/r3nt0n)
 ![[Version 1.0](https://github.com/R3nt0n)](http://img.shields.io/badge/version-v1.0-orange.svg)
 ![[Python 2.7](https://github.com/R3nt0n)](http://img.shields.io/badge/python-2.7-blue.svg)
