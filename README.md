@@ -11,7 +11,7 @@ zpub6oCSaTqTGnSCr1UXxg6SJtXFPLPqyebxEbPAypid1fynqwcfK1cZb7LbJg8EWs8drU27mpgqxETj
 
 <img src = 'https://repository-images.githubusercontent.com/393848590/b4e02b8d-8181-457d-acaf-45088558524e'></img>
 ---
-## About DDos Attact
+## About DDos Attack
 > In computing, a denial-of-service attack is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.
 
 ## Disclaimer
