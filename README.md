@@ -4,7 +4,7 @@ Several DDos Tools for testings.
 
 ***The collection will keep updating, adding new tools & tutorials.*** Please feel free to open pull requests.    
 
-*More projects: [@theodorecooper](https://github.com/theodorecooper?tab=repositories)*      
+*More projects: [@the0cp](https://github.com/the0cp?tab=repositories)*      
 
 *Reach me: [Hi there!👋 I'm Theodore!](https://github.com/the0cp/the0cp)*    
 
