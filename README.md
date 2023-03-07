@@ -6,9 +6,9 @@ Several DDos Tools for testings.
 
 *More projects: [@theodorecooper](https://github.com/theodorecooper?tab=repositories)*      
 
-*Reach me: [Hi there!👋 I'm Theodore!](https://github.com/theodorecooper/theodorecooper)*    
+*Reach me: [Hi there!👋 I'm Theodore!](https://github.com/the0cp/the0cp)*    
 
-*Website: https://theodorecooper.github.io/*    
+*Website: https://the0cp.github.io/*    
 
 ~~(It’ll be thankful if you donate Bitcoin)~~      
 ```
