@@ -2,18 +2,7 @@
 Awesome list of DDos attack tools.  
 Several DDos Tools for testings.    
 
-***The collection will keep updating, adding new tools & tutorials.*** Please feel free to open pull requests.    
-
-*More projects: [@the0cp](https://github.com/the0cp?tab=repositories)*      
-
-*Reach me: [Hi there!👋 I'm Theodore!](https://github.com/the0cp/the0cp)*    
-
-*Website: https://the0cp.github.io/*    
-
-~~(It’ll be thankful if you donate Bitcoin)~~      
-```
-bc1q9ma2cszlzhnd3g9kuecguz63d0c45tqhjw7fun
-```
+Please feel free to open pull requests.    
 
 <img src = 'https://repository-images.githubusercontent.com/393848590/b4e02b8d-8181-457d-acaf-45088558524e'></img>
 ---
